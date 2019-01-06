@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<HTML lang="en">
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, inital-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css">
+<!---CSS-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!---navbar-->
+<nav class="navbar navbar-dark bg-dark navbar-expand-md" role="navigation">
+  <div class="container">
+    <a class="navbar-brand" href="/">Personal Site</a>
+    <!--navButton-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#globalNav" aria-controls="globalNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--navBar Menu Item-->
+    <div class="collapse navbar-collapse" id="globalNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog">Blog</a>
+        </li>
+      </ul>
+        
+    <!--navBar Socialmedia dropdownlink-->    
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Social networks
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Twitter</a>
+            <a class="dropdown-item" href="#">Facebook</a>
+            <a class="dropdown-item" href="#">LinkedIn</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--Main Conntent below-->
+<main class="container mt-3">
+ 
+  <div class="row">
+    <article class="col-md-8">
+    <!-- will occupy 8 col. on MD or Larger screens stack on smaller.-->
+  <h1>Welcome to my personal website!</h1>
+  <p class="lead">I am web developer, designer, and just a good person.</p>
+    <div class="row">
+        <!--Block Quotes-->
+        <blockquote class="blockquote col-md">
+        <p class="mb-0">
+        I rasied a hardworking man    
+        </p>
+        <footer class="blockquote-footer">
+        <cite title="My Mom">My Mom</cite>    
+        </footer>
+        </blockquote>
+        
+        <blockquote class="blockquote col-md">
+        <p class="mb-0">
+        Loyal, honest friend    
+        </p>
+        <footer class="blockquote-footer">
+        <cite title="My Mom">My Friend</cite>    
+        </footer>
+        </blockquote>
+        
+        <blockquote class="blockquote col-md">
+        <p class="mb-0">
+        One of the Friendliest human being Ive met 
+        </p>
+        <footer class="blockquote-footer">
+        <cite title="My Mom">My Manager</cite>    
+        </footer>
+        </blockquote>
+        
+        
+        </div>
+      </article>
+      
+    <aside class="col-md-4">
+    <!-- will occupy 4 col on Md or larger screens will stack on smaller.-->
+    <h3>Recent Posts</h3>
+    <ul>
+        <li><a href="#">Post 1</a></li>
+        <li><a href="#">Post 2</a></li>
+        <li><a href="#">Post 3</a></li>
+        </ul>
+      </aside>
+    </div>
+</main>
+      
+<!---Footer Section-->
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">&copy; 2018 My Personal Site LLC.</span>
+  </div>
+</footer>
+        
+        
+  <!--Javascript-->      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</HTML>
